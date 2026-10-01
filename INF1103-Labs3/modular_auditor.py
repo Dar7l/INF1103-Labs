@@ -58,6 +58,4 @@ def main():
 
     generate_report(total_inventory, failed_entries)
 
-
-if __name__ == "__main__":
-    main()
+main()
