@@ -38,7 +38,21 @@ def load_inventory():
         print("Starting with empty inventory.")
         return []
 
+def display_all(inventory):
+    print("\nCurrent Inventory")
+    print("------------------------------------------------")
 
-inventory = load_inventory()
+    if len(inventory) == 0:
+        print("No products in inventory.")
+    else:
+        for product in inventory:
+            print(
+                f"ID: {product['id']} | "
+                f"Name: {product['name']} | "
+                f"Price: ${product['price']:.2f} | "
+                f"Stock: {product['stock']}"
+            )
 
-print(inventory)
+    print("------------------------------------------------")
+
+display_all(inventory)
