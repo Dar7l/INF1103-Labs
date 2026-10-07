@@ -73,3 +73,21 @@ def add_product(inventory):
     inventory.append(product)
 
     print("Product added successfully!")
+
+def search_product(inventory):
+    print("\nSearch Product")
+
+    product_id = input("Enter Product ID: ")
+
+    for product in inventory:
+        if product["id"] == product_id:
+            print("Product Found")
+            print("------------------------------------------------")
+            print(f"ID: {product['id']}")
+            print(f"Name: {product['name']}")
+            print(f"Price: ${product['price']:.2f}")
+            print(f"Stock: {product['stock']}")
+            print("------------------------------------------------")
+            return
+
+    print("Product not found.")
