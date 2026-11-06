@@ -22,5 +22,21 @@
         "stock": 100,
         "type": "digital",
         "download_size": 25.0
+    },
+    {
+        "id": "P003",
+        "name": "Headphones",
+        "price": 30.0,
+        "stock": 50,
+        "type": "physical",
+        "weight": 0.1
+    },
+    {
+        "id": "D002",
+        "name": "Java E-book",
+        "price": 2.0,
+        "stock": 2,
+        "type": "digital",
+        "download_size": 50.0
     }
 ]
