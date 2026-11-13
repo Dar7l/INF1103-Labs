@@ -1,0 +1,80 @@
+[
+    {
+        "id": "P001",
+        "name": "Laptop",
+        "price": 1200.0,
+        "stock": 15,
+        "supplier": {
+            "supplier_id": "LEGACY",
+            "name": "Unknown supplier",
+            "contact_email": ""
+        },
+        "type": "physical",
+        "weight": 2.0
+    },
+    {
+        "id": "P002",
+        "name": "Mouse",
+        "price": 25.5,
+        "stock": 40,
+        "supplier": {
+            "supplier_id": "LEGACY",
+            "name": "Unknown supplier",
+            "contact_email": ""
+        },
+        "type": "physical",
+        "weight": 0.2
+    },
+    {
+        "id": "D001",
+        "name": "Python E-book",
+        "price": 9.9,
+        "stock": 100,
+        "supplier": {
+            "supplier_id": "LEGACY",
+            "name": "Unknown supplier",
+            "contact_email": ""
+        },
+        "type": "digital",
+        "download_size": 25.0
+    },
+    {
+        "id": "P003",
+        "name": "Headphones",
+        "price": 30.0,
+        "stock": 50,
+        "supplier": {
+            "supplier_id": "LEGACY",
+            "name": "Unknown supplier",
+            "contact_email": ""
+        },
+        "type": "physical",
+        "weight": 0.1
+    },
+    {
+        "id": "D002",
+        "name": "Java E-book",
+        "price": 2.0,
+        "stock": 2,
+        "supplier": {
+            "supplier_id": "LEGACY",
+            "name": "Unknown supplier",
+            "contact_email": ""
+        },
+        "type": "digital",
+        "download_size": 50.0
+    },
+    {
+        "id": "P800",
+        "name": "Test Mouse",
+        "price": 15.5,
+        "stock": 10,
+        "supplier": {
+            "supplier_id": "S001",
+            "name": "Test Supplier",
+            "contact_email": "test@example.com"
+        },
+        "type": "physical",
+        "weight": 0.2
+    }
+]
